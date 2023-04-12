@@ -1,0 +1,41 @@
+py -m venv pyenv
+py -m pip install Django
+django-admin --version
+django-admin startproject realestate
+py manage.py startapp papau
+py manage.py runserver
+py manage.py createsuperuser
+
+github
+git init        at project folder
+git config --global user.name Osnel97
+git config --global user.email nellysjonathan12@gmail.com
+
+Create a file .gitignore inside the root folder of django project.
+And put the following code inside it.
+
+*.pyc  
+*~  
+__pycache__  
+myvenv  
+db.sqlite3  
+/static  
+.DS_Store  
+
+git status 
+git add --all 
+git commit -m "my app first commit"
+git remote add origin https://github.com/Osnel97/papau.git
+git push -u --force origin master  
+
+
+
+
+
+echo "# kicks" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Osnel97/kicks.git
+git push -u origin main
