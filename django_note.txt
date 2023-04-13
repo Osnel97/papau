@@ -1,10 +1,15 @@
-py -m venv pyenv
-py -m pip install Django
-django-admin --version
-django-admin startproject realestate
-py manage.py startapp papau
-py manage.py runserver
-py manage.py createsuperuser
+1. install python   //in windows
+2. py -m venv pyenv    //create virtual env
+3. pyenv\Scripts\activate.bat     //activate it
+
+4. py -m pip install Django        install django in inside an activated virtual environment
+5. django-admin --version          check django version
+6. create a direcctory called realestate inside a virtual environment
+
+django-admin startproject realestate        create djano project inside an activated virtual environment
+py manage.py startapp papau          create app called papau inside a django project
+py manage.py runserver               run project inside a realestate project
+py manage.py createsuperuser        create django admin
 
 github
 git init        at project folder
@@ -23,19 +28,9 @@ db.sqlite3
 .DS_Store  
 
 git status 
+git add README.md
 git add --all 
-git commit -m "my app first commit"
+git commit -m "papau app new change  commit"
+git branch -M main   //not necessary
 git remote add origin https://github.com/Osnel97/papau.git
 git push -u --force origin main 
-
-
-
-
-
-echo "# kicks" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Osnel97/kicks.git
-git push -u --force origin main
