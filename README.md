@@ -1,0 +1,36 @@
+1. install python   //in windows
+2. py -m venv pyenv    //create virtual env
+3. pyenv\Scripts\activate.bat     //activate it
+
+4. py -m pip install Django        install django in inside an activated virtual environment
+5. django-admin --version          check django version
+6. create a direcctory called realestate inside a virtual environment
+
+django-admin startproject realestate        create djano project inside an activated virtual environment
+py manage.py startapp papau          create app called papau inside a django project
+py manage.py runserver               run project inside a realestate project
+py manage.py createsuperuser        create django admin
+
+github
+git init        at project folder
+git config --global user.name Osnel97
+git config --global user.email nellysjonathan12@gmail.com
+
+Create a file .gitignore inside the root folder of django project.
+And put the following code inside it.
+
+*.pyc  
+*~  
+__pycache__  
+myvenv  
+db.sqlite3  
+/static  
+.DS_Store  
+
+git status 
+git add README.md
+
+git commit -m "papau app new change  commit"
+git branch -M main   //not necessary
+git remote add origin https://github.com/Osnel97/papau.git
+git push -u --force origin main 

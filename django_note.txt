@@ -19,6 +19,7 @@ git config --global user.email nellysjonathan12@gmail.com
 Create a file .gitignore inside the root folder of django project.
 And put the following code inside it.
 
+
 *.pyc  
 *~  
 __pycache__  
