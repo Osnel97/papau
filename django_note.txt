@@ -29,7 +29,7 @@ db.sqlite3
 
 git status 
 git add README.md
-git add --all 
+
 git commit -m "papau app new change  commit"
 git branch -M main   //not necessary
 git remote add origin https://github.com/Osnel97/papau.git
